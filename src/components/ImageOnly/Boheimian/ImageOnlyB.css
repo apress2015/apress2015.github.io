@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap");
+.secondImage {
+  background: url("../../../images/Footer (1).svg") no-repeat;
+  background-size: cover; }
+
+.designBackground {
+  background: rgba(244, 245, 255, 0.6);
+  backdrop-filter: blur(22px); }
+
+.ImageOnlyB {
+  font-family: "Crimson Text", Serif; }

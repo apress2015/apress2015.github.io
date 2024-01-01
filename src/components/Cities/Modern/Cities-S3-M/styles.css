@@ -1,0 +1,25 @@
+.CitiesS3M .city_name {
+  position: absolute;
+  width: 200px;
+  height: 75px;
+  bottom: 40px;
+  right: -86px;
+  right: -86px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(32px);
+  transform: rotate(90deg);
+  transform-origin: top;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.14em;
+  color: #000000;
+  text-shadow: 0px 0px 34px #FFFFFF;
+  border-radius: 16px; }
+
+.CitiesS3M .view_btn {
+  @apply px-8 py-2 text-20 text-white rounded-[8px] flex flex-col justify-center gap-2 items-center absolute left-3 right-3 top-12  bg-white cursor-pointer;
+  background: #9DA6FA;
+  border-radius: 8px; }

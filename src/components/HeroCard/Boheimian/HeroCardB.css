@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+.HeroCardB .cardSection {
+  font-family: 'Crimson Text', serif;
+  color: #545650; }
+.HeroCardB .cardSection h5 {
+  font-family: 'Fasthand', cursive; }
+.HeroCardB .cardSection .priceTag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  color: #000; }
+.HeroCardB .cardSection .off {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 8px; }
+.HeroCardB .cardSection .line {
+  border: 1px dashed #545650;
+  margin: 54px 0; }
+.HeroCardB .cardSection .type {
+  color: #363853; }
+.HeroCardB .cardSection .type span {
+  color: silver; }
+.HeroCardB .cardSection .listing {
+  display: inline-block;
+  padding: 0px 0px 8px;
+  gap: 16px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #545650;
+  border-bottom: 1px solid #D7DBFE;
+  margin-top: 58px; }
+
+.HeroCardB .backgroundSectionFirst {
+  background: url("../../../images/Rectangle_27.svg") no-repeat;
+  background-size: cover; }
+
+.HeroCardB .backgroundSectionSecond {
+  background: url("../../../images/Rectangle_27.svg") no-repeat;
+  background-size: contain; }
+
+.HeroCardB .content {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(17px); }

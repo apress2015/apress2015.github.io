@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+$text-dark-blue: #374957;
+$black-background: #2C2C2C;
+$white-background: #fff;
+$white-text: #fff;
+$black-text: #000;
+$input-background: #383838;
+$input-border: #545650;
+$price-tag-bg: rgba(0, 0, 0, 0.05);
+$type-feature: #363853;
+$type: silver; //change
+
+.title {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110px;
+}
+
+.sub-title-text {
+  color: $text-dark-blue;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.arrowBtn {
+  background-color: $white-background;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cardSection {
+  font-family: 'Optima';
+
+  h5 {
+    font-family: 'Branch';
+  }
+
+  .priceTag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    background: $price-tag-bg;
+  }
+
+  .off {
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 8px;
+  }
+
+  .line {
+    border: 1px dashed #545650;
+  }
+
+  p:last-child {
+    color: $type-feature;
+    span {
+      color: $type;
+    }
+  }
+}

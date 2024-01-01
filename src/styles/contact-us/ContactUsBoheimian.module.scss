@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+$text-dark-blue: #374957;
+$black-background: #2C2C2C;
+$white-background: #fff;
+$white-text: #fff;
+$black-text: #545650;
+$input-background: #383838;
+$input-border: #D8D8D8;
+$button-background: rgba(216, 216, 216, 0.4);
+
+@mixin helpSectionFunction ($background , $text , $input-color-bg , $input-placeholder){
+  background-color: $background;
+  font-family: 'Crimson Text', serif;
+  color: $text;
+  .help {
+    font-family: 'Fasthand', cursive;
+  }
+  .contactInput {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    outline: none;
+    color: $input-placeholder;
+    margin-top: 24px;
+    padding: 0px 0px 12px;
+    border-bottom: 1px solid $input-border;
+  }
+
+  .contactInput::placeholder {
+    color: $black-text;
+  }
+
+  .contactButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 9px 17px;
+    gap: 10px;
+    background-color: $button-background;
+    color: $black-text;
+    margin-top: 33px;
+    border-radius: 8px;
+  }
+}
+
+.title {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110px;
+}
+
+.sub-title-text {
+  color: $text-dark-blue;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.helpSection:nth-of-type(1) {
+  @include helpSectionFunction($white-background , $black-text , $white-background ,$black-text);
+  border-bottom: 1px solid $input-border;
+}
+
+.helpSection:nth-of-type(2) {
+  @include helpSectionFunction($white-background , $black-text , $white-background , $black-text);
+  background: url("../../images/Contact Us.svg") no-repeat center center;
+
+  form {
+    border-right: 1px solid $input-border;
+    border-left: 1px solid $input-border;
+  }
+
+}
+
+.helpSection:nth-of-type(3) {
+  @include helpSectionFunction($white-background , $black-text , $white-background , $black-text);
+  border-bottom: 1px solid $input-border;
+}

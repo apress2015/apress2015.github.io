@@ -1,0 +1,14 @@
+.TextImageS1M {
+  font-family: 'Lato'; }
+.TextImageS1M .text-container {
+  background: #F8F9FF; }
+.TextImageS1M .bg-text {
+  font-style: normal;
+  font-weight: 900;
+  line-height: 171px;
+  opacity: 0.2; }
+.TextImageS1M .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  /* White */ }

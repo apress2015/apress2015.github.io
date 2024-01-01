@@ -1,0 +1,34 @@
+.FooterS1C {
+  color: white;
+  background: #2C2C2C;
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 14px; }
+.FooterS1C .footer-main {
+  padding: 48px; }
+.FooterS1C .footer-main .footer-title {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #606060;
+  margin-bottom: 24px; }
+.FooterS1C .footer-main .f-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: 40px; }
+.FooterS1C .footer-main .f-nav ul li {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap; }
+.FooterS1C .footer-bottom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border-top: 1px solid #606060; }

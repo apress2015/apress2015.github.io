@@ -1,0 +1,15 @@
+.TextImageS3C {
+  font-family: 'Playfair Display'; }
+.TextImageS3C .text-container {
+  background: white; }
+.TextImageS3C .bg-text {
+  font-style: normal;
+  font-weight: 900;
+  line-height: 171px;
+  color: #D9D9D9;
+  opacity: 0.2; }
+.TextImageS3C .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  /* White */ }

@@ -1,0 +1,10 @@
+.TextImage-S1-C {
+  font-family: 'Playfair Display'; }
+.TextImage-S1-C .text-container {
+  background: #252525;
+  color: white; }
+.TextImage-S1-C .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  /* White */ }

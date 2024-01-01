@@ -1,0 +1,25 @@
+.CitiesS3B .city {
+  font-family: 'Crimson Text';
+  position: absolute;
+  padding: 16px;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  background: white;
+}
+.CitiesS3B .name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  white-space: nowrap;
+  letter-spacing: 0.24em;
+  text-align: left;
+}
+.CitiesS3B .view {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.14em;
+  color: #545650;
+}

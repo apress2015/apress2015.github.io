@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$text-dark-blue: #374957;
+$light-blue-background: #F8F9FF;
+$white-background: #fff;
+$white-text: #fff;
+$black-text: #000;
+$input-background: #E8EBFF;
+$input-border: #BEC4FE;
+$button-background: #9DA6FA;
+
+@mixin helpSectionFunction ($background , $button-color , $button-text, $input-color-bg ){
+  background-color: $background;
+  font-family: 'Lato', sans-serif;
+  color: $black-text;
+
+  .contactInput {
+    background-color: $input-color-bg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 9px 17px;
+    border: none;
+    outline: none;
+    color: $black-text;
+    margin-top: 24px;
+    border-radius: 8px;
+  }
+
+  .contactInput::placeholder {
+   color: $black-text;
+  }
+
+  .contactButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+    gap: 10px;
+    background-color: $button-color;
+    color: $button-text;
+    margin-top: 33px;
+    border-radius: 8px;
+  }
+}
+
+.title {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110px;
+}
+
+.sub-title-text {
+  color: $text-dark-blue;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.helpSection:nth-of-type(1) {
+  @include helpSectionFunction($light-blue-background, $button-background , $white-text , $input-background);
+}
+
+.helpSection:nth-of-type(2) {
+  @include helpSectionFunction($white-background , $button-background , $white-text , $white-background);
+  border: 1px solid $input-border;
+  border-radius: 8px;
+
+  .contactInput {
+    border: 1px solid $input-border;
+  }
+}
+
+.helpSection:nth-of-type(3) {
+  @include helpSectionFunction($white-background , $button-background , $white-text , $white-background);
+  .contactInput {
+    border: 1px solid $input-border;
+  }
+}

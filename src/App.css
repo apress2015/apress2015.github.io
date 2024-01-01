@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.layout{
+    max-width: 1200px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.card-title{
+    font-family: 'Optima';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+.card-desc{
+    font-family: 'Branch';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.card-price{
+    font-family: 'Optima';
+    font-weight: 550;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #000000;
+}
+.card-percent{
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 16px;
+}
+.roboto{
+    font-family: 'Roboto';
+
+}
+.fasthand{
+    font-family: 'Fasthand';
+}
+.lato{
+    font-family: "lato";
+}

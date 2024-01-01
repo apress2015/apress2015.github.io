@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.ContactUsC .title {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110px; }
+
+.ContactUsC .sub-title-text {
+  color: #374957;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px; }
+
+.ContactUsC .helpSection {
+  width: 100%; }
+
+.ContactUsC .helpSection:nth-of-type(1) {
+  background-color: #2C2C2C;
+  font-family: 'Playfair Display', serif;
+  color: #fff; }
+.ContactUsC .helpSection:nth-of-type(1) .contactInput {
+  background-color: #383838;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 9px 17px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-top: 24px;
+  width: 100%; }
+.ContactUsC .helpSection:nth-of-type(1) .contactInput::placeholder {
+  color: #fff; }
+.ContactUsC .helpSection:nth-of-type(1) .contactButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  gap: 10px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 33px; }
+
+.ContactUsC .helpSection:nth-of-type(2) {
+  background-color: #fff;
+  font-family: 'Playfair Display', serif;
+  color: #000;
+  border: 1px solid rgba(54, 56, 83, 0.3); }
+.ContactUsC .helpSection:nth-of-type(2) .contactInput {
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 9px 17px;
+  border: none;
+  outline: none;
+  color: #545650;
+  margin-top: 24px;
+  width: 100%; }
+.ContactUsC .helpSection:nth-of-type(2) .contactInput::placeholder {
+  color: #545650; }
+.ContactUsC .helpSection:nth-of-type(2) .contactButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  gap: 10px;
+  background-color: #2C2C2C;
+  color: #fff;
+  margin-top: 33px; }
+.ContactUsC .helpSection:nth-of-type(2) .contactInput {
+  border: 1px solid #545650; }
+
+.ContactUsC .helpSection:nth-of-type(3) {
+  background-color: #fff;
+  font-family: 'Playfair Display', serif;
+  color: #000; }
+.ContactUsC .helpSection:nth-of-type(3) .contactInput {
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 9px 17px;
+  border: none;
+  outline: none;
+  color: #545650;
+  margin-top: 24px;
+  width: 100%; }
+.ContactUsC .helpSection:nth-of-type(3) .contactInput::placeholder {
+  color: #545650; }
+.ContactUsC .helpSection:nth-of-type(3) .contactButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  gap: 10px;
+  background-color: #2C2C2C;
+  color: #fff;
+  margin-top: 33px; }
+.ContactUsC .helpSection:nth-of-type(3) .contactInput {
+  border: 1px solid #545650; }

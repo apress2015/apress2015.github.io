@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+$text-dark-blue: #374957;
+$black-background: #2C2C2C;
+$white-background: #fff;
+$white-text: #fff;
+$black-text: #000;
+$input-background: #383838;
+$input-border: #545650;
+
+@mixin helpSectionFunction ($background , $text , $button-color , $button-text, $input-color-bg , $input-placeholder){
+  background-color: $background;
+  font-family: 'Playfair Display', serif;
+  color: $text;
+
+  .contactInput {
+    background-color: $input-color-bg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 9px 17px;
+    border: none;
+    outline: none;
+    color: $input-placeholder;
+    margin-top: 24px;
+  }
+
+  .contactInput::placeholder {
+    color: $input-placeholder;
+  }
+
+  .contactButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+    gap: 10px;
+    background-color: $button-color;
+    color: $button-text;
+    margin-top: 33px;
+  }
+}
+
+.title {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110px;
+}
+
+.sub-title-text {
+  color: $text-dark-blue;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.helpSection:nth-of-type(1) {
+  @include helpSectionFunction($black-background , $white-text , $white-background , $black-text , $input-background , $white-text);
+}
+
+.helpSection:nth-of-type(2) {
+  @include helpSectionFunction($white-background , $black-text , $black-background , $white-text , $white-background , $input-border);
+  border: 1px solid rgba(54, 56, 83, 0.3);
+  .contactInput {
+    border: 1px solid $input-border;
+  }
+}
+
+.helpSection:nth-of-type(3) {
+  @include helpSectionFunction($white-background , $black-text , $black-background , $white-text , $white-background , $input-border);
+  .contactInput {
+    border: 1px solid $input-border;
+  }
+}

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.HeaderS13M header {
+  font-family: "Playfair Display", serif; }
+.HeaderS13M header.headerBackground {
+  width: 100%;
+  background: url("../../../../images/Rectangle 38.png") no-repeat;
+  background-size: cover; }
+.HeaderS13M header .des {
+  font-family: "Roboto", sans-serif; }

@@ -1,0 +1,29 @@
+.CitiesS2B .name {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.24em;
+  color: #545650;
+  white-space: nowrap;
+  text-shadow: 0px 0px 34px #FFFFFF;
+  text-align: left;
+}
+.CitiesS2B .img {
+  clip-path: circle(50% at 100% 50%);
+  object-fit: cover;
+}
+@media only screen and (min-width: 990px) {
+  .CitiesS2B .img {
+    clip-path: circle(50% at 100% 50%);
+  }
+}
+.CitiesS2B .view_btn {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: right;
+  line-height: 31px;
+  letter-spacing: 0.14em;
+}

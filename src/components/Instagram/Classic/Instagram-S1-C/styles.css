@@ -1,0 +1,25 @@
+.InstagramS1C .title {
+  font-family: 'Optima';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 24px; }
+@media only screen and (min-width: 990px) {
+  .InstagramS1C .title {
+    margin-bottom: 48px;
+    font-size: 40px; } }
+
+.InstagramS1C .btn {
+  margin: 32px auto 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  gap: 10px;
+  place-items: center;
+  display: grid;
+  width: 279px;
+  height: 37px;
+  background: #000000; }

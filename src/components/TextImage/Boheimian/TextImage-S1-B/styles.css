@@ -1,0 +1,20 @@
+.TextImageS1B {
+  font-family: 'crimson';
+}
+.TextImageS1B .since {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #A2A798; }
+.TextImageS1B .bg-text {
+  font-style: normal;
+  font-weight: 900;
+  line-height: 171px;
+  opacity: 0.2; }
+.TextImageS1B .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  /* White */ }

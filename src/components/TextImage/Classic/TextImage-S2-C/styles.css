@@ -1,0 +1,9 @@
+.TextImageS2C {
+  font-family: 'Playfair Display'; }
+.TextImageS2C .text-container {
+  background: white; }
+.TextImageS2C .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  /* White */ }

@@ -1,0 +1,16 @@
+.CitiesS1M .name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: #000000;
+    text-shadow: -2px -2px 0 #fff, 0 -2px 0 #fff, 2px -2px 0 #fff, 2px 0 0 #fff, 2px 2px 0 #fff, 0 2px 0 #fff, -2px 2px 0 #fff, -2px 0 0 #fff; }
+
+.CitiesS1M .view_btn {
+    @apply grid place-items-center  absolute bottom-3 w-[130px] h-10 cursor-pointer;
+    background: rgba(255, 255, 255, 0.62);
+    backdrop-filter: blur(17px);
+    background: #9DA6FA;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF; }

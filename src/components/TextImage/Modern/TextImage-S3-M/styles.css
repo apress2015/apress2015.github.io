@@ -1,0 +1,12 @@
+.TextImageS3M {
+  font-family: 'Lato'; }
+.TextImageS3M .bg-text {
+  font-style: normal;
+  font-weight: 900;
+  line-height: 171px;
+  opacity: 0.2; }
+.TextImageS3M .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  /* White */ }

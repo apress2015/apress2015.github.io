@@ -1,0 +1,34 @@
+.FooterS1B {
+  color: #545650;
+  background: white;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  font-size: 14px; }
+.FooterS1B .footer-main {
+  padding: 48px; }
+.FooterS1B .footer-main .footer-title {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E1E1E1;
+  margin-bottom: 24px; }
+.FooterS1B .footer-main .f-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: 40px; }
+.FooterS1B .footer-main .f-nav ul li {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap; }
+.FooterS1B .footer-bottom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border-top: 1px solid #E1E1E1; }

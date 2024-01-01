@@ -1,0 +1,26 @@
+.CitiesS1B .name {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  letter-spacing: 0.24em;
+  color: #545650;
+  margin-bottom: 50px;
+  white-space: nowrap;
+  text-shadow: 0px 0px 34px #FFFFFF;
+}
+.CitiesS1B .img {
+  clip-path: circle(50% at 50% 50%);
+  width: 100%;
+  margin-bottom: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.CitiesS1B .view_btn {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.14em;
+}
