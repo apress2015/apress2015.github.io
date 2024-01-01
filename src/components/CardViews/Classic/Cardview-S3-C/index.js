@@ -39,14 +39,14 @@ const CardviewS3C = () => {
                   <path
                     d="M3.99992 7.40497L3.99992 0.594971"
                     stroke="black"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M7.12313 4.26855L3.9998 7.40522L0.876465 4.26855"
                     stroke="black"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </div>

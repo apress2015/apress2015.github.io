@@ -50,20 +50,20 @@ const HeaderS11C = () => {
               <path
                 d="M3 7.31836H21"
                 stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
               />
               <path
                 d="M3 12.3184H21"
                 stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
               />
               <path
                 d="M3 17.3184H21"
                 stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
               />
             </svg>
           </div>

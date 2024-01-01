@@ -52,20 +52,20 @@ const HeaderS13M = () => {
                 <path
                   d="M3 7.5H21"
                   stroke="#363853"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
                 <path
                   d="M3 12.5H21"
                   stroke="#363853"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
                 <path
                   d="M3 17.5H21"
                   stroke="#363853"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
               </svg>
             </div>
@@ -99,18 +99,18 @@ const HeaderS13M = () => {
                 <path
                   d="M14.4297 5.93L20.4997 12L14.4297 18.07"
                   stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M3.5 12H20.33"
                   stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>

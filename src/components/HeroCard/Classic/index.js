@@ -22,10 +22,10 @@ const HeroCardC = () => {
                 <path
                   d="M16.2724 21.8711L9.26159 14.8603C8.43364 14.0324 8.43364 12.6775 9.26159 11.8496L16.2723 4.83881"
                   stroke="black"
-                  stroke-width="2"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -45,10 +45,10 @@ const HeroCardC = () => {
                 <path
                   d="M10.2276 21.8711L17.2384 14.8603C18.0664 14.0324 18.0664 12.6775 17.2384 11.8496L10.2277 4.83881"
                   stroke="black"
-                  stroke-width="2"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -111,10 +111,10 @@ const HeroCardC = () => {
                   <path
                     d="M16.2724 21.8711L9.26159 14.8603C8.43364 14.0324 8.43364 12.6775 9.26159 11.8496L16.2723 4.83881"
                     stroke="black"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>
@@ -134,10 +134,10 @@ const HeroCardC = () => {
                   <path
                     d="M10.2276 21.8711L17.2384 14.8603C18.0664 14.0324 18.0664 12.6775 17.2384 11.8496L10.2277 4.83881"
                     stroke="black"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>
@@ -205,10 +205,10 @@ const HeroCardC = () => {
                   <path
                     d="M16.2724 21.8711L9.26159 14.8603C8.43364 14.0324 8.43364 12.6775 9.26159 11.8496L16.2723 4.83881"
                     stroke="black"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>
@@ -223,10 +223,10 @@ const HeroCardC = () => {
                   <path
                     d="M10.2276 21.8711L17.2384 14.8603C18.0664 14.0324 18.0664 12.6775 17.2384 11.8496L10.2277 4.83881"
                     stroke="black"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>

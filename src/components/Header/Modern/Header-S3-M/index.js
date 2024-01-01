@@ -48,20 +48,20 @@ const HeaderS3M = () => {
                   <path
                     d="M3 7.31836H21"
                     stroke="black"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M3 12.3184H21"
                     stroke="black"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M3 17.3184H21"
                     stroke="black"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   />
                 </svg>
               </div>
@@ -106,18 +106,18 @@ const HeaderS3M = () => {
                     <path
                       d="M14.4795 5.92993L20.5495 11.9999L14.4795 18.0699"
                       stroke="white"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeMiterlimit="10"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M3.5498 12H20.3798"
                       stroke="white"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeMiterlimit="10"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </button>
