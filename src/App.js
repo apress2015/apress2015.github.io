@@ -12,7 +12,6 @@ import S2MPage from "./pages/modern/S2";
 import S3MPage from "./pages/modern/S3";
 import Layout from "./components/Layout";
 
-// <div className="App flex flex-col gap-20"></div>;
 function App() {
   return (
     <BrowserRouter>
