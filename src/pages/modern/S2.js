@@ -1,5 +1,4 @@
 import React from "react";
-import CardViewS2M from "../../components/CardViews/Modern/CardView-S2-M";
 import CitiesS2M from "../../components/Cities/Modern/Cities-S2-M";
 import ContactUsM from "../../components/ContactUs/Modern";
 import FooterS2M from "../../components/Footer/Modern/Footer-S2-M";
@@ -13,8 +12,6 @@ import TextOnlyM from "../../components/TextOnly/Modern";
 const S2MPage = () => {
   return (
     <div className="App flex flex-col gap-20">
-      <CardViewS2M />
-
       <CitiesS2M />
 
       <ContactUsM />

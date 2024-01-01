@@ -1,5 +1,4 @@
 import React from "react";
-import CardViewS3M from "../../components/CardViews/Modern/CardView-S3-M";
 import CitiesS3M from "../../components/Cities/Modern/Cities-S3-M";
 import ContactUsM from "../../components/ContactUs/Modern";
 import FooterS3M from "../../components/Footer/Modern/Footer-S3-M";
@@ -13,8 +12,6 @@ import TextOnlyM from "../../components/TextOnly/Modern";
 const S3MPage = () => {
   return (
     <div className="App flex flex-col gap-20">
-      <CardViewS3M />
-
       <CitiesS3M />
 
       <ContactUsM />
